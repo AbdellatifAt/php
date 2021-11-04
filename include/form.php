@@ -10,7 +10,7 @@
 
    if(isset($_REQUEST)){
 
-   // verification aucun Error 
+   // verification aucun Erro
 
     $sql = "INSERT INTO users(firstName,lastName,email) VALUES ('$firstName','$lastName','$email')";
   
